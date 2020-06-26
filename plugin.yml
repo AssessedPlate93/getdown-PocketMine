@@ -1,0 +1,22 @@
+---
+name: GetDown
+author: assessed
+api: 3.0.0
+version: 1.1-BETA
+main: getdown/main
+description: Pocketmine Plugin By @Assessedaplate93 (Czech Republic) - Web problaly github
+
+commands:
+    getdown.create.command:
+      description: Creates A GetDown Map
+      default: op
+      aliases: [gdc]
+    getdown.slots.command:
+      description: Updates GetDown Slots
+      default: op
+      aliases: [gds]
+    getdown.leaderboard.command:
+      description: Shows GetDown Statistic
+      default: true
+      aliases: [gdl]
+...
