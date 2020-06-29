@@ -24,13 +24,13 @@ class getdown extends PluginBase implements Listener{
     /*** edit in propeties spawn protection to "-1" ***/
     private $dataProvider;
     public $config;
-    public $prefix = "[ GetDown ]";
+    public $prefix = "[ GetDownBE ]";
     public $commands[]; 
     public $arenas[];  
     public $mode = 0;
     public $messages; 
     public $setupModeAction = "";
-    public $GetDownMapName;
+    public $arenaName;
     
     public function onEnable(): void{
         $this->getLogger()->info("Loading GetDown Plugin..");
