@@ -57,7 +57,7 @@ class getdown extends PluginBase implements Listener{
           $temp = new Config($this->getDataFolder() . "temp_match_data.json", Config::JSON);
     }
 }
-    /*** TO-DO: Add Functions "LoadArenas, registerEvents, registerCommands" ***/
+    /*** TO-DO:: Add Functions "LoadArenas, registerEvents, registerCommands" ***/
     public function registerEvents(){
         # To - Do
     }
